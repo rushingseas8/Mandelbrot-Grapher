@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=ComplexNumber(double,\ double)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=other
+comment2.target=ComplexNumber\ add(ComplexNumber)
+comment3.params=
+comment3.target=ComplexNumber\ square()
+numComments=4

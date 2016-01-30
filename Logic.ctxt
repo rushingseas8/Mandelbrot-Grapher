@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Logic()
+comment0.text=\n\ You\ have\ no\ need\ to\ instantiate\ this\ Object;\ simply\ use\ the\ static\ methods\ provided.\n
+comment1.params=c\ numIterations
+comment1.target=boolean\ greyTest(ComplexNumber,\ int)
+comment1.text=\n\ The\ default\ shader's\ default\ logic;\ Does\ a\ given\ amount\ of\ iterations\ on\ the\ given\ number.\n\ @param\ c\:\ The\ ComplexNumber\ that\ will\ be\ tested\ (of\ the\ form\ ai\ +\ b)\n\ @param\ numIterations\:\ How\ many\ iterations\ will\ be\ tested\ for.\n\ @return\ true\ if\ this\ number\ does\ not\ go\ to\ infinity\ in\ the\ given\ number\ of\ iterations,\ false\ otherwise.\n
+comment2.params=c
+comment2.target=boolean\ greyTest(ComplexNumber)
+comment2.text=\n\ The\ default\ shader's\ default\ testing\ resolution\ of\ 100\ iterations\ per\ pixel.\n\ @param\ c\:\ The\ ComplexNumber\ that\ will\ be\ tested\ (of\ the\ form\ ai\ +\ b)\n\ @return\ true\ if\ this\ number\ doesn't\ go\ to\ infinity\ within\ 100\ iterations,\ false\ otherwise.\n
+comment3.params=c\ numIterations
+comment3.target=int\ colorTest(ComplexNumber,\ int)
+comment3.text=\n\ The\ basic\ tester\ for\ anything\ that\ uses\ color.\ Similar\ to\ the\ greyscale\ logic,\ but\ used\ for\ anything\ that\ requires\ color.\n\ @param\ c\:\ The\ ComplexNumber\ that\ will\ be\ tested\ (of\ the\ form\ ai\ +\ b)\n\ @param\ numIterations\:\ How\ many\ iterations\ will\ be\ tested\ for\ (usually\ a\ multiple\ of\ 8\ to\ make\ color\ calculations\ easier)\n\ @return\ How\ many\ iterations\ it\ takes\ for\ the\ tested\ number\ to\ escape,\ or\ -1\ if\ it\ does\ not\ in\ the\ given\ amount.\n
+comment4.params=c
+comment4.target=int\ colorTest(ComplexNumber)
+comment4.text=\n\ The\ color\ shader's\ default\ testing\ resolution\ of\ 64\ iterations\ per\ pixel\ (neatly\ divisible\ by\ 2\ to\ allow\ for\ color\ calculations)\n\ @param\ c\:\ The\ ComplexNumber\ that\ will\ be\ tested\ (of\ the\ form\ ai\ +\ b)\n\ @return\ the\ number\ of\ iterations\ it\ takes\ until\ escape,\ or\ -1\ otherwise\ if\ it\ doesn't\ within\ 64\ iterations.\n
+comment5.params=c
+comment5.target=boolean\ escape(ComplexNumber)
+comment5.text=\n\ A\ private\ helper\ method\ that\ tells\ you\ whether\ or\ not\ this\ number\ has\ escaped\ yet.\ \n\ @param\ c\:\ The\ number\ to\ be\ tested.\n\ @return\ whether\ or\ not\ the\ real/irrational\ value\ is\ out\ of\ the\ bounds\ [-2,2].\n
+comment6.params=c
+comment6.target=boolean\ escape2(ComplexNumber)
+numComments=7
